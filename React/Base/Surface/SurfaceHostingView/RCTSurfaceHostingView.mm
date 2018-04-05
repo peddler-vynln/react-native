@@ -68,12 +68,12 @@ RCT_NOT_IMPLEMENTED(- (nullable instancetype)initWithCoder:(NSCoder *)coder)
   CGSize minimumSize;
   CGSize maximumSize;
 
-  RCTSurfaceMinimumSizeAndMaximumSizeFromSizeAndSizeMeasureMode(
-    self.bounds.size,
-    _sizeMeasureMode,
-    minimumSize,
-    maximumSize
-  );
+//   RCTSurfaceMinimumSizeAndMaximumSizeFromSizeAndSizeMeasureMode(
+//     self.bounds.size,
+//     _sizeMeasureMode,
+//     minimumSize,
+//     maximumSize
+//   );
 
   [_surface setMinimumSize:minimumSize
                maximumSize:maximumSize];
@@ -105,12 +105,12 @@ RCT_NOT_IMPLEMENTED(- (nullable instancetype)initWithCoder:(NSCoder *)coder)
   CGSize minimumSize;
   CGSize maximumSize;
 
-  RCTSurfaceMinimumSizeAndMaximumSizeFromSizeAndSizeMeasureMode(
-    size,
-    _sizeMeasureMode,
-    minimumSize,
-    maximumSize
-  );
+//   RCTSurfaceMinimumSizeAndMaximumSizeFromSizeAndSizeMeasureMode(
+//     size,
+//     _sizeMeasureMode,
+//     minimumSize,
+//     maximumSize
+//   );
 
   return [_surface sizeThatFitsMinimumSize:minimumSize
                                maximumSize:maximumSize];
